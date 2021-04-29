@@ -1,0 +1,214 @@
+div {
+    font-size: 18px;
+  }
+  
+  div p {
+    color: black;
+  }
+  
+  div ul {
+    color: brown;
+  }
+  
+  h1, h2, h3 {
+    color: blue;
+  }
+  
+  h1 {
+    font-family: Arial;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: Helvetica;
+    font-size: 24px;
+  }
+  
+  ol li {
+    margin-left: 810px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #5f2aa5;
+  }
+  
+  ol > li {
+    color: black;
+  }
+  
+  ul {
+    font-family: Georgia;
+    font-size: 18px;
+    color: blue;
+  }
+  
+  input[Type=text] {
+    Background-color: yellow;
+  }
+  
+  input[Type=number] {
+    Background-color: #a1daa1;
+  }
+  
+  table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+  }
+  
+  th {
+    background-color: lightgray;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  
+  #top {
+    text-align-last: right;
+    font-family: Comic Sans MS, cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-emphasis-color: rgb(255, 0, 34);
+            text-emphasis-color: yellow;
+    font-style: italic;
+    background-color: lightblue;
+    width: 1500px;
+    height: 100px;
+    width: 1500px;
+    margin: 10px;
+    padding: 6px;
+  }
+  
+  #middle {
+    font-family: Arial;
+    font-size: 24px;
+    background-color: #affbf7;
+    width: 1500px;
+    height: 450px;
+    margin: 10px;
+    padding: 5px;
+    vertical-align: middle;
+  }
+  
+  #bottom {
+    width: 1500px;
+    height: 100px;
+    font-size: 24px;
+    width: 1500px;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  img {
+    float: Left;
+  }
+  
+  @media (min-width: 1000px) {
+    #bottom::before {
+      content: "Go to Main Page ";
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    #bottom {
+      background-color: #f4fc8e;
+    }
+  }
+  
+  @media (max-width: 999px) {
+    #bottom {
+      background-color: silver;
+    }
+  }
+  
+  .name {
+    font-style: italic;
+  }
+  
+  button {
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    background-color: aqua;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+  
+  @media print {
+    .screen-only {
+      display: none;
+    }
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .container > div {
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .grid {
+    background-color: green;
+    display: -ms-grid;
+    display: grid;
+    padding: 2px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    -ms-grid-columns: 30px auto auto auto auto auto auto;
+        grid-template-columns: 30px auto auto auto auto auto auto;
+  }
+  
+  .grid-item {
+    background-color: white;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .success, .warning, .error {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .success {
+    background-color: green;
+  }
+  
+  .warning {
+    background-color: orange;
+  }
+  
+  .error {
+    background-color: red;
+  }
+
+  form.form-example {
+    text-align-last: center;
+    display: table;
+    border-style:outset;
+    align-self: center;
+}
+

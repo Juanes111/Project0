@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advance Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            label {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                display: inline-block;
+                width: 400px;
+                text-align: left;
+            }
+            div {
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="Google Image Search.html">Google Image Search</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Google Search.html">Google Search</a>
+        </li>
+    </ul>
+    <div class="Title">
+        <p>Project0 - Juan Esteban Suarez</p>
+    </div>
+    <img class="imagen" src="google.jpg" alt="Google Source" >
+    <div>
+        <h3>Advanced Search</h3>
+    </div>
+    <body>
+        <div id="middle">
+            <ol>
+                <form action="https://www.google.com/search">
+                    <div>
+                        <label for="as_q">Find pages with… “all these words:</label>
+                        <input type="text" id="as_q" name="as_q">
+                    </div>
+                    <div>
+                        <label for="as_epq">Find pages with… “this exact word or phrase:</label>
+                        <input type="text" id="as_epq" name="as_epq">
+                    </div>
+                    <div>
+                        <label for="as_oq">Find pages with… “any of these words:</label>
+                        <input type="text" id="as_oq" name="as_oq">
+                    </div>
+                    <div>
+                        <label for="as_eq">Find pages with… “none of these words:</label>
+                        <input type="text" id="as_eq" name="as_eq">
+                    </div>
+                    <input type="submit" value="Google Advanced Search">
+                </form>
+            </ol>
+        </div>
+        </div>
+    </body>
+</html>
